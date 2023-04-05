@@ -1,0 +1,8 @@
+.myarticle.css
+	background:("C/WEBDATA/hakunamatata")no-repeat;
+	background-size: cover;
+	display:inline block;
+	object-fit: contain;
+	justify-content:space-between;
+
+}

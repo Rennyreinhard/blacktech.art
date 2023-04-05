@@ -1,0 +1,98 @@
+body{
+	backgroung-color:#f9f7f0;
+	color:#555;
+	font-size: 1.1em;
+	font-family:'Helvetica Neue'Helvetica,Arial,sans-serif;
+}
+.container{
+	margin:40px auto 0;
+	width:90%
+}
+.container-2{
+	margin:40px auto;
+	max-width:700px;
+}
+.element{
+	padding:20px;
+	background-color:#0099cc;
+	color:white;
+	margin-bottom:30px;
+	min-height:70px;
+	zoom:1;
+	-webkit-transition:opacity .6s;
+	transition:opacity .6s;
+}
+/*<div class="element element -0;>
+<p>
+i have<code>opacity:0</code>
+</p>*/
+.child{
+	background-color:#777;
+	padding:20px;
+}
+.element-0{
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+.element-1{filter:alpha(opacity=0);
+	opacity:0;
+.element-2{filter:alpha(opacity=20);
+	opacity: .2
+.element-3{filter:alpha(opacity=100);
+	opacity:1;
+	
+p{
+	padding:20px;
+}
+img{
+	
+	display:block;
+	margin:10px 0;
+}
+h2{
+	display:run-in;
+	background-color:#0099cc;
+	color:white;
+	padding:20px;
+}
+span{
+	display:inline-block;
+	border:1px solid #ff6100;
+width:200px;
+height:100px;
+padding:10px;
+margin:10px;
+}
+/*makes image translucent and then animates it into fully opaque on hover,using a CSS Transition,creating a subtle fade in effect*/
+img{
+	opacity{
+		opacity:0.3;
+		transition:opacity .6s;
+	}
+	img:hover{
+		opacity:1;
+	}
+	/*Compatible with versions of Internet Explorer that don't support the opacity property*/
+	img{
+		zoom:1;
+		filter:alpha(opacity=50);
+		opacity:0.5;
+	}
+	/*Transform property allows you to visually transform an element in two-dimensional or three-dimensional space.
+	Using transorm,elements can be translated,rotated and/or scaled in two or three dimensional space.
+	More specifically,the transform property transforms the coordinate system of an element,thus resulting in the element's transformation in space
+	Any value for transform other than none results in the creation of both a stscking context and a containing block.
+	This means that the transformed element acts as a containing block for fixed positioned descendants
+	The transformation matrix that is used to apply the transformations to an element is also affected by the value of the transform-origin property.(Used to specify the orign of transformation
+	-the origin is the origin of the element coordinates system at the time of transformation.
+	THE COORDINATE SYSTEM
+	Every element in CSS has a coordinate system whose origin is at the top left corner of the element(initial coordinate system)
+	When you use transform,the origin of the coordinate system is moved to the center of the element.
+	The default value of the transform origin is at 50%50%,which is exactly the center of any given element.
+	
+	After that all transformations are applied to the element based on the new position of the coordinate system.
+	If you rotate or skew the element using the tranform property,you tranform and/or skew the entire coordinate system along with it,and all consequent
+	transformations will be applied based on the new coordinate system's transformation.This is why the order of transformation is very important.
+	E.g If you want to translate an element and rotate it in its new position,you should do it in the mentioined order:
+	TRANSLATE THEN ROTATE(if you were to translate an element and rotate it to it's new position) 
+		
