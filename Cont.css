@@ -94,5 +94,5 @@ img{
 	If you rotate or skew the element using the tranform property,you tranform and/or skew the entire coordinate system along with it,and all consequent
 	transformations will be applied based on the new coordinate system's transformation.This is why the order of transformation is very important.
 	E.g If you want to translate an element and rotate it in its new position,you should do it in the mentioined order:
-	TRANSLATE THEN ROTATE(if you were to translate an element and rotate it to it's new position) *\
+	TRANSLATE THEN ROTATE(if you were to translate an element and rotate it to it's new position) */
 		
