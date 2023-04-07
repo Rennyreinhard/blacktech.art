@@ -59,32 +59,7 @@ padding:2.5rem 0;
 height:100vh;
 box-sizing:border-box;
 }
-.toggle-container{
-position:relative;
-}
-.theme-btn{
-width:6em;
-height:6 em;
-padding:0.5em;
-border-radius:50%;
-cursor:pointer;
-border:none;
-background-color:tranparent;
-}
-.theme-btn img{
-height:100%;
-width:100%;
-object-fit:cover;
-}
-.theme-btn.light{
-display:none;
-}
-.dark .theme-btn.dark{
-display:none;
-}
-.dark .theme-btn.light{
-display:block;
-}
+
 
 
 
@@ -93,21 +68,7 @@ display:block;
 <body>
 
  
-<main class="hackathon">
-<p>Switch between light and dark mode</p>
-<div class="toggle-container">
-<button class="theme-btn light"
-onclick="setTheme('light')"
-title="Light mode">
-<img src="C/WEBDATA/lightmode"alt="lightmode">
-<div class="toggle-container">
-<button class="theme-btn dark
-onclick="setTheme('dark')"
-title="Dark mode">
-<img src="C/WEBDATA/darkmode"alt="darkmode">
-<script>
-const setTheme = theme =>document.documentElement.className= theme;
-</script>
+
 
 
 <div class="navbar" id= "myTopnav">
