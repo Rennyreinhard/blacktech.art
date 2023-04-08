@@ -1,0 +1,284 @@
+body{
+    background-image:url(bg.jpg);
+    background-size: cover;
+}
+.nav{
+    
+    height: 60%;
+    width: 16%;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 4%;
+}
+.logo{
+    height: 250px;
+    width:250px;
+}
+.logo-box{
+    margin-top: -3%;
+}
+
+.basichtmlmenu{
+    margin-top:-12%;
+    position: relative;
+}
+.listmenu{
+    margin-top:37%;
+    position: relative;
+}
+.tablemenu{
+   margin-top: 70% ;
+   position: relative;
+}
+.formmenu{
+    margin-top:110% ;
+    position: relative;
+}
+.htmlimage{
+    height: 85px;
+    width: 120px;
+    position: absolute;
+    
+}
+
+.listimage{
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    margin-left:6%
+}
+.tableimage{
+    height: 80px;
+    width: 70px;
+    position: absolute;
+    margin-left: 7%;
+    
+}
+.formimage{
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    margin-left: 6%;
+
+}
+h4{
+    color: gold;
+    font-size: 20px;
+    font-family:serif;
+    text-decoration:none;
+    margin-left:50%;
+    margin-top: 20%;
+    position: absolute;
+    
+    
+}
+h4:hover{
+    color: rgb(0, 225, 255);
+    
+}
+
+footer{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 27%;
+    margin-left: 40%;
+}
+h2{
+    color: greenyellow;
+    font-size: 25px;
+    font-family:serif;
+    
+}
+li{
+    color: snow;
+    font-size: 20px;
+}
+.Ul{
+     margin-left: 60%;
+     margin-top: 15%;
+     position: absolute;
+}
+.Ol{
+    margin-left: 20%;
+    margin-top: 16%;
+    position: absolute;
+}
+header{
+    color: rgb(0, 174, 255);
+    font-size: 40px;
+    margin-left: 46%;
+    margin-top: 5%;
+    position: absolute;
+}
+table{
+    
+    font-size: 20px;
+    margin-top: 16%;
+    margin-left: 15%;
+    position: absolute;
+    background-color: white;
+    
+
+}
+form{
+   height:400px;
+   width: 500px;
+   position:absolute;
+   margin-left:31%;
+   margin-top: 10%;
+      
+}
+h3{
+    color:gold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 30px;
+     position: relative;
+     margin-left: 37%;     
+}
+.details{
+    color: white;
+}
+iframe{
+    position: absolute;
+    height: 89%;
+    width: 80%;
+    margin-left: 18%;
+    margin-top: -15%;
+    border:none;
+   
+
+}
+.body_{
+    background: transparent;
+}
+h1{
+    color: gold;
+    margin-top:15%;
+    margin-left: 16%;
+    position: absolute;
+}
+p{
+    color:white;
+    font-size:20px;
+    margin-top:20%;
+    margin-left:16%;
+    position:absolute;
+}
+.centerlogo{
+    position:absolute;
+    margin-left: 28%;
+    margin-top: 8%;
+}
+h5{
+    color:rgb(255, 196, 1);
+    position:absolute;
+    font-size:80px;
+    margin-top: 30%;
+    margin-left: 22%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    margin-left: 29%;
+    position: absolute;
+}
+.Submit{
+ margin-top: 10% ;
+}
+#submit{
+    height: 50px;
+    width: 250px;
+    border-radius: 24px;
+    color:white;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    border-color:gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Password{
+    margin-top: 10%;
+}
+#password{
+    height: 32px;
+    width: 280px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+.PWD{
+    color:aqua;
+    font-size: 21px;
+    position: absolute;
+    margin-top: -5%;
+}
+
+.Age{
+    margin-top: 10%;
+}
+#age{
+    height: 32px;
+    width: 280px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+.AG{
+    color:aqua;
+    font-size: 21px;
+    position: absolute;
+    margin-top: -5%;
+}
+.LastName{
+    margin-top: 10%;
+}
+#lastname{
+    height: 32px;
+    width: 280px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+.LN{
+    color:aqua;
+    font-size: 21px;
+    position: absolute;
+    margin-top: -5%;
+}
+#firstname{
+    height: 32px;
+    width: 280px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+.FN{
+    color:aqua;
+    font-size: 21px;
+    position: absolute;
+    margin-top: -5%;
+}
+h6{
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 8%;
+}
