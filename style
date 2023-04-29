@@ -2,10 +2,11 @@ body{
 background-image:url(bg.jpg);
 background-size:cover;
 }
-.nav{
+.navbar{
+color:red;
 height:60;
 width:16%;
-position:absolute;
+position:fixed;
 border-radius:20px;
 margin-left:4;
 }
