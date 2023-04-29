@@ -7,8 +7,20 @@ color:red;
 height:60;
 width:16%;
 position:fixed;
-border-radius:20px;
-margin-left:4;
+font-size:20px;
+display:flex;
+align-items:center;
+box-shadow:0 0 25px 0 black;
+}
+.navbar a{
+display:inline;
+color:black;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+navbar a:hover{
+color:rgb(0,225,255)
 }
 .logo{
 height:250px;
